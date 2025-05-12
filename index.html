@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple dashboard project using HTML, CSS">
+    <meta name="author" content="Coding Ninjas">
+    <meta name="keywords" content="HTML, CSS">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7f45b247f3.js" crossorigin="anonymous"></script>
+
+    <title> DashBoard Project </title>
+
+    <link rel="shorcut icon" href="download.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <main>
+    <section class="left">
+
+    <div class="profile">
+
+        <div class="img-p">
+        <img src="user-icon.png" height="100px" width="100px" alt="Logo" class="logo" id="logo1" title="Logo">
+        </div>
+
+        <div class="img-p">
+        <p> John Doe </p>
+        </div>
+        
+    </div>
+        
+
+
+        <nav>
+
+            <div class="div-1">
+            <i class="fa-solid fa-chart-line"></i>
+            <a href="#board" class="nav-link" id="nav-link1"> DashBoard </a>
+            </div>  
+
+            <div class="div-2">
+            <i class="fa-solid fa-database"></i>
+            <a href="#data" class="nav-link" id="nav-link2"> Data </a>
+            </div>
+
+            <div class="div-3">
+            <i class="fa-solid fa-user"></i>
+            <a href="#users" class="nav-link" id="nav-link3"> Users </a>
+            </div>
+
+            <div class="div-4">
+            <i class="fa-solid fa-calendar"></i>
+            <a href="#schedule" class="nav-link" id="nav-link4"> Schedule </a>
+            </div>
+
+            <div class="div-5">
+            <i class="fa-solid fa-id-card"></i>
+            <a href="#contact" class="nav-link" id="nav-link5"> Contact </a>
+            </div>    
+        </nav>
+    </section>
+
+    <section class="right">
+
+    <header>
+        <h1> DashBoard </h1>
+        <input placeholder="Search...">
+    </header>
+
+        <article id="board" class="board">
+            <div class="Activity">
+                <h2> Activity </h2>
+                <p> May - June 2024 </p>         
+            </div>
+            <div class="board-img">
+                <img src="Screenshot 2025-04-14 100920.png" alt="Board" class="board-img1" id="board-img1" title="Board">
+            </div>
+        </article>
+
+
+        <article id="data" class="data">
+            <div class="data-container">
+                <div class="data-heading">
+                    <h1> DashBoard Data </h1>
+                </div>
+
+                <div class="data-card">
+                    <div class="data-card-1">
+                        <div class="data-card-icon">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="data-card-text">
+                            <p>Total Revenue</p>
+                            <p>$456,553,563</p>
+                        </div>
+                    </div>
+                
+                    <div class="data-card-2">
+                        <div class="data-card-icon">
+                            <i class="fa-solid fa-tag"></i>
+                        </div>
+                        <div class="data-card-text">
+                            <p>Total Transaction</p>
+                            <p>1,450</p>
+                        </div>
+                    </div>
+                
+                    <div class="data-card-3">
+                        <div class="data-card-icon">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                        <div class="data-card-text">
+                            <p>Total Likes</p>
+                            <p>1,234</p>
+                        </div>
+                    </div>
+                
+                    <div class="data-card-4">
+                        <div class="data-card-icon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="data-card-text">
+                            <p>Total User</p>
+                            <p>856</p>
+                        </div>
+                    </div>
+                </div> 
+
+         
+                <div id="users" class="data-heading">
+                    <h1> User Interactions </h1>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th> Month</th>
+                            <th> Number of Users </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> January </td>
+                            <td> 100 </td>
+                        </tr>
+                        <tr>
+                            <td> February </td>
+                            <td> 120 </td>
+                        </tr>
+                        <tr>
+                            <td> March </td>
+                            <td> 150 </td>
+                        </tr>
+                        <tr>
+                            <td> April </td>
+                            <td> 200 </td>
+                        </tr>
+                        <tr>
+                            <td> May </td>
+                            <td> 250 </td>
+                        </tr>        
+                    </tbody>
+                </table>
+ 
+
+            </div>   
+        </article>
+
+
+        <article id="schedule" class="schedule">
+            <div class="schedule-container">
+                <div class="schedule-heading">
+                    <h1> TODAY'S SCHEDULE </h1>
+                </div>
+
+                <div class="schedule-card">
+
+                    <div class="schedule-card-1">
+                        <h2> MEETING FROM SUPPLIERS FROM KUTTA BALI </h2>
+                        <p>10:00 AM - 11:00 AM</p>
+                        <p> AT SUNSET RAOD KUTTA BALI </p>
+                    </div>
+
+                    <div class="schedule-card-2">
+                        <h2> MEETING FROM SUPPLIERS FROM SURESH </h2>
+                        <p>11:00 AM - 12:00 AM</p>
+                        <p> AT SUNSET RAOD BALI </p>
+                    </div>
+
+                    <div class="schedule-card-3">
+                        <h2> MEETING FROM SUPPLIERS FROM AJAY </h2>
+                        <p>1:00 AM - 2:00 AM</p>
+                        <p> AT SUNSET RAOD </p>
+                    </div>
+
+                    <div class="schedule-card-4">
+                        <h2> MEETING FROM SUPPLIERS FROM ENCOPRICE </h2>
+                        <p>2:00 AM - 3:00 AM</p>
+                        <p> AT MORNING ON SOINA ROAD </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </article>
+        <article id="contact" class="contact">
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.32835516133!2d77.20898509999999!3d28.5273522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1744612932093!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="contact-form">
+
+                    <h2> FeedBack </h2>
+                   
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                   
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <textarea id="message" name="message" placeholder="Your Feedback " required></textarea>
+
+                    <button type="submit">Submit FeedBack</button>
+                    
+                </div>
+          
+        </article>
+
+    <footer>
+        <div class="footer-icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="footer-text">
+            <p> &copy; Coding Ninjas All Rights Reserved .</p>
+        </div>
+    </footer>
+
+
+    </section>
+   </main>
+
+   
+
+
+</body>
+</html>
