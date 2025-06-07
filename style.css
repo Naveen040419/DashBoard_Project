@@ -9,6 +9,7 @@
 
 body{
     font-family:"Special Gothic Condensed One", sans-serif;
+    background-color: var(--light-bg-color);
     background-color: #ebe9e9;
 }
 
