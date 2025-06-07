@@ -1,3 +1,8 @@
+:root{
+    --dark-bg-color: #121212;
+    --light-bg-color: #f0f0f0;
+}
+
 body{
     font-family:"Special Gothic Condensed One", sans-serif;
     background-color: #ebe9e9;
