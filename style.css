@@ -3,6 +3,10 @@
     --light-bg-color: #f0f0f0;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
 body{
     font-family:"Special Gothic Condensed One", sans-serif;
     background-color: #ebe9e9;
